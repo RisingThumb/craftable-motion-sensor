@@ -4,17 +4,17 @@
   "version": "${version}",
 
   "name": "Craftable Motion Sensors",
-  "description": "This mod adds a recipe to get motion sensors.",
+  "description": "This mod adds a recipe to craft motion sensors.",
   "authors": [
     "RisingThumb"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://risingthumb.xyz/Tech/Projects/Craftable_Motion_Sensor/",
+    "sources": "https://github.com/RisingThumb/craftable-motion-sensor"
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
