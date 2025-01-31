@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "craftablemotionsensors",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Craftable Motion Sensors",
+  "description": "This mod adds a recipe to get motion sensors.",
   "authors": [
-    "Turnip Labs"
+    "RisingThumb"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"risingthumb.craftablemotionsensors.CraftableMotionSensors"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"risingthumb.craftablemotionsensors.CraftableMotionSensors"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"risingthumb.craftablemotionsensors.CraftableMotionSensors"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"risingthumb.craftablemotionsensors.CraftableMotionSensors"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "craftablemotionsensors.mixins.json"
   ],
 
   "depends": {

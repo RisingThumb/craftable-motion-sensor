@@ -1,0 +1,35 @@
+[
+  {
+    "name": "minecraft:workbench/motion_sensor",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "XXX",
+      "X X",
+      "XRX"
+    ],
+    "symbols": [
+      {
+        "symbol": "X",
+        "stack": {
+          "key": "tile.cobble.stone.mossy",
+          "amount": 1,
+          "meta": 0
+        }
+      },
+      {
+        "symbol": "R",
+        "stack": {
+          "key": "item.dust.redstone",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.motionsensor.idle",
+      "amount": 1,
+      "meta": 0
+    },
+    "consumeContainers": true
+  }
+]
